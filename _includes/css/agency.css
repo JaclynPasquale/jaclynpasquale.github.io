@@ -7,10 +7,11 @@
 body {
     overflow-x: hidden;
     font-family: "Noto Serif", Georgia, serif;
-    color: #{{ site.color.secondary-dark }};
+    background-image: url("img/gplaypattern_@2X.png");
+    /*color: #{{ site.color.secondary-dark }};*/
 }
 ul.left.text-muted {
-  width: 50%;
+  width: 25%;
   float: left;
 }
 
@@ -906,4 +907,10 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.color.primary }};
+}
+
+/* custom */
+
+.about-text {
+  margin: 30px 0 0 30px
 }

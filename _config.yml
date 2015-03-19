@@ -18,8 +18,7 @@ people:
   pic: JaclynPasqualeBWcropped
   position: Web Developer & Designer
   social:
-    - title: gmail
-      url: #
+
     - title: github
       url: #
     - title: linkedin
@@ -27,8 +26,7 @@ people:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: gmail
-    url: jaclynpasquale@gmail.com
+
   - title: github
     url: http://github.com/JaclynPasquale
   - title: linkedin
