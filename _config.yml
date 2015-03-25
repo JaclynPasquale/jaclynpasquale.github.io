@@ -2,7 +2,7 @@ url: "https://jaclynpasquale.github.io"
 baseurl: ""
 
 # Site settings
-title: Jaclyn Pasquale
+title: JACLYN PASQUALE
 email: jaclynpasquale@gmail.com
 description: "The personal portfolio site of Jaclyn Pasquale, Web Developer and Designer. Graduate of Cohort 7 of Nashville Software School"
 
@@ -15,7 +15,7 @@ color:
 # Team names, titles and social links
 people:
 - name: Jaclyn Pasquale
-  pic: JaclynPasqualeBWcropped
+  pic: Jaclyn_square_color
   position: Web Developer & Designer
   social:
 

@@ -1,0 +1,16 @@
+---
+title: FOTD
+subtitle: Face of the Day
+layout: default
+modal-id: 6
+date: 2015-01-01
+img: FOTD.png
+thumbnail: FOTD-thumbnail.jpg
+alt: image-alt
+project-repository: https://github.com/JaclynPasquale/FOTD-App
+project-demo: https://fotd-app.firebaseapp.com/
+client: Nashville Software School Mid-Term Capstone
+category: Front End Web Development
+description: Face of the Day is a web app for recording your favorite makeup looks and the products used to create them. Built using AngularJS, Foundation and Firebase.
+
+---

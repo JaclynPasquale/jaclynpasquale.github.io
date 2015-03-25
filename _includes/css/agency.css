@@ -11,7 +11,7 @@ body {
     /*color: #{{ site.color.secondary-dark }};*/
 }
 ul.left.text-muted {
-  width: 25%;
+  /*width: 25%;*/
   float: left;
 }
 
@@ -45,7 +45,7 @@ a.active {
 }
 
 a {
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.secondary }};
 }
 
 a:hover,
@@ -186,7 +186,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Amaranth","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Roboto Condensed","Helvetica Neue",Helvetica,Arial,cursive;
     color: #{{ site.color.primary }};
 }
 
@@ -278,6 +278,13 @@ fieldset[disabled] .btn-xl.active {
 
 
 
+
+.line {
+  border-right:2px solid #333;
+}
+
+
+
 @media(min-width:768px) {
     .navbar-default {
         padding: 25px 0;
@@ -313,7 +320,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/header.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -368,6 +375,10 @@ header .intro-text .intro-heading {
     }
 }
 
+.about-white {
+  background-color: white;
+}
+
 section {
     padding: 100px 0;
 }
@@ -375,6 +386,7 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
+    margin-top: 30px;
     font-size: 40px;
 }
 
@@ -389,7 +401,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 75px 0;
     }
 }
 
@@ -451,7 +463,11 @@ section h3.section-subheading {
     padding: 25px;
     max-width: 400px;
     text-align: center;
-    background-color: #fff;
+    background-color: #{{ site.color.secondary-dark }};
+}
+
+.portfolio-caption h4{
+  color:  #E3DEE2;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {
