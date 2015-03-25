@@ -71,7 +71,8 @@ h6 {
 }
 
 .bg-light-gray {
-    background-color: #f7f7f7;
+    background-color: #CEC1C5;
+    /*opacity:0.7;*/
 }
 
 .bg-darkest-gray {
@@ -913,4 +914,14 @@ body {
 
 .about-text {
   margin: 30px 0 0 30px
+}
+
+
+ul.tools, #tools {
+  width: 33%;
+  height: 175px;
+}
+.width {
+  width: 100%;
+  padding: 40px 0 0 0;
 }
